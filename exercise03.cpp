@@ -8,9 +8,31 @@ int volume(int height, int width, int length);
 // have the integer data types Height, Width, Length
 
 // Do not change the main function
-int main() {
+
+struct box{
+int height
+int width
+int length
+};
+    
     // 2. Create a variable called box1 of the Box structure type
     // int box1Height, box1Width, box1Length;
+{
+  box 1;
+  cout << "Enter Height: ";
+    cin >> p1.height;
+    cout << "Enter Width: ";
+    cin >> p1.width;
+    cout << "Enter Length: ";
+    cin >> p1.length;
+
+    cout << "\nDisplaying Information." << endl;
+    cout << "Name: " << p1.name << endl;
+    cout <<"Age: " << p1.age << endl;
+    cout << "Salary: " << p1.salary;
+
+    return 0;
+}
     // 3. Create a variable called box2 of the Box structure type
     
     // int box2Height, box2Width, box2Length;
